@@ -3,50 +3,68 @@
   <head>
    <title>TRIDENT REGISTRATION</title>
 </head>
-<body>
-  <table>
-    <form>
-<div class="container">
-  <h1>Student Registration Form</h1>
-  <form name="registration" class="registartion-form" onsubmit="return formValidation()">
-    <table>
-      <tr>
-        <td><label for="name">Name:</label></td>
-        <td><input type="text" name="name" id="name" placeholder="your name"></td>
-      </tr>
-      <tr>
-        <td><label for="email">Email:</label></td>
-        <td><input type="text" name="email" id="email" placeholder="your email"></td>
-      </tr>
-      <tr>
-        <td><label for="phoneNumber">Phone Number:</label></td>
-        <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
-      </tr>
-<tr><td><label for="date of birth">Date Of Birth:</label></td><td><input type="date" id="date" name="dateofbirth" id="dateofbirth"></td></tr>
-      <tr>
-        <td><label for="gender">Gender:</label></td>
-        <td>Male: <input type="radio" name="gender" value="male">
-          Female: <input type="radio" name="gender" value="female">
-          Other: <input type="radio" name="gender" value="other"></td>
-      </tr>
-      <tr>
-        <td><label for="language">language</label></td>
-        <td>
-          <select name="language" id="language">
-            <option value="">Select language</option>
-            <option value="English">English</option>
-            <option value="Hindi">Hindi</option>
-            <option value="Odia">Odia</option>
-          </select>
-        </td>
-      </tr>
-      <tr>
-        <td><label for="zipcode">Zip Code:</label></td>
-        <td><input type="number" name="zipcode" id="zipcode"></td>
-      </tr>
-<td><button type="submit">Submit</button></td>
-    </table>
-  </form>
-</div>
-  </body>
-</html>
+<Html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form>  
+  
+<label> Firstname </label>         
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> Middlename: </label>     
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> Lastname: </label>         
+<input type="text" name="lastname" size="15"/> <br> <br>  
+  
+<label>   
+Course :  
+</label>   
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+  
+<br>  
+<br>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+<br> <br>  
+Re-type password:  
+<input type="Password" id="repass" name="repass"> <br> <br>  
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>  
+ 
